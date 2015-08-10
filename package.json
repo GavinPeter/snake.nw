@@ -1,0 +1,17 @@
+{
+  "name": "Snake Eater",
+  "main": "index.html",
+  "version": "0.0.1",
+  "single-instance": true,
+  "window": {
+    "title": "Snake Eating",
+  //  "frame": false,
+    "toolbar": false,
+ //   "fullscreen": true,
+    "width": 475,
+    "height": 475,
+    "min_width": 475,
+    "min_height": 475
+  },
+  "chromium-args": "--child-clean-exit"
+}
